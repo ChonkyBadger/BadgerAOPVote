@@ -21,8 +21,5 @@ files in it. You should see a config folder, fxmanifest.lua, README.md, License,
 the source code instead of the compiled files. In your server.cfg, you will want to add:  
 "start BadgerAOPVote". If you did not name the folder, "BadgerAOPVote", just replace it with whatever you did name it.  
 
-## Credit
-- [Badger](https://forum.cfx.re/u/OfficialBadger)
-
 ## Links
 - [My Discord Server](https://discord.gg/TFCQE8d)
