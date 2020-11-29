@@ -43,27 +43,31 @@ namespace BadgerAOPVoteServer
             {
                 // arg 0 = duration
                 // arg 1+ = options
-                voteOptions.Clear();
-                voteList.Clear();
 
-                object[] argArray = args.ToArray();
-                maxOptions = args.Count - 1;
-                voteOptionsMsg = string.Empty;
-
-                int index = 0;
-                foreach (string i in argArray)
+                if (IsPlayerAceAllowed(source.ToString(), "BadgerEssentials.Command.StartVote"))
                 {
-                    if (index > 0) // index 0 is for duration
+                    voteOptions.Clear();
+                    voteList.Clear();
+
+                    object[] argArray = args.ToArray();
+                    maxOptions = args.Count - 1;
+                    voteOptionsMsg = string.Empty;
+
+                    int index = 0;
+                    foreach (string i in argArray)
                     {
-                        voteOptions.Add(i);
-                        voteOptionsMsg += colour1 + "Option " + index + ": " + colour2 + i + "\n";
+                        if (index > 0) // index 0 is for duration
+                        {
+                            voteOptions.Add(i);
+                            voteOptionsMsg += colour1 + "Option " + index + ": " + colour2 + i + "\n";
+                        }
+
+                        index++;
                     }
 
-                    index++;
+                    aopVoteDuration = int.Parse(argArray[0].ToString());
+                    TriggerClientEvent("BadgerAOPVote:StartAOPVote", maxOptions, voteOptionsMsg, colour1, colour2, aopVoteDuration);
                 }
-
-                aopVoteDuration = int.Parse(argArray[0].ToString());
-                TriggerClientEvent("BadgerAOPVote:StartAOPVote", maxOptions, voteOptionsMsg, colour1, colour2, aopVoteDuration);
             }), false);
 
         }
