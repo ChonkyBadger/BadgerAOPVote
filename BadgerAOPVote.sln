@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgerAOPVoteClient", "BadgerAOPVote\BadgerAOPVoteClient.csproj", "{A35D442A-0ED8-4C06-8139-011CA86C5B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgerAOPVoteServer", "BadgerAOPVoteServer\BadgerAOPVoteServer.csproj", "{04DD23CF-9940-471B-9CC9-7DBF7775FC8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35D442A-0ED8-4C06-8139-011CA86C5B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35D442A-0ED8-4C06-8139-011CA86C5B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35D442A-0ED8-4C06-8139-011CA86C5B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35D442A-0ED8-4C06-8139-011CA86C5B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DD23CF-9940-471B-9CC9-7DBF7775FC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DD23CF-9940-471B-9CC9-7DBF7775FC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DD23CF-9940-471B-9CC9-7DBF7775FC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DD23CF-9940-471B-9CC9-7DBF7775FC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0392898A-C848-4A6E-9690-866AFA323076}
+	EndGlobalSection
+EndGlobal
