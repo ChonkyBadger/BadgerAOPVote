@@ -17,8 +17,8 @@ set the aop to the winning option.
 
 ## Installation
 Under **"releases"**, download the latest version and extract the files to a folder. You should have one folder with the script's  
-files in it. You should see a config folder, **fxmanifest.lua**, **README.md**, **License**, and 3 dlls. If you see a **.sln**  file, it means you downloaded  
-the source code instead of the compiled files. In your server.cfg, you will want to add:  
+files in it. You should see a config folder, **fxmanifest.lua**, **README.md**, **License**, and 3 dlls. If you see a **.sln**  file, it means you  
+downloaded the source code instead of the compiled files. In your server.cfg, you will want to add:  
 **"start BadgerAOPVote"**. If you did not name the folder, **"BadgerAOPVote"**, just replace it with whatever you did name it.  
 
 ## Links
