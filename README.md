@@ -22,5 +22,9 @@ downloaded the source code instead of the compiled files.
 In your server.cfg, you will want to add:  
 **"start BadgerAOPVote"**. If you did not name the folder, **"BadgerAOPVote"**, just replace it with whatever you did name it.  
 
+## License
+Full license is viewable in the LICENSE file in this repository.  
+This license is subject to be changed at any given time.
+
 ## Links
 - [My Discord Server](https://discord.gg/TFCQE8d)
