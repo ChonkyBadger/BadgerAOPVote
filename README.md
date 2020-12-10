@@ -2,6 +2,8 @@
 A FiveM script for making AOP Votes. This script can link up to BadgerEssentials to automatically  
 set the aop to the winning option.
 
+Support is available in my discord, linked at the bottom of this page.
+
 ## Commands
 `/startVote <duration> <option1, option2, etc...> ` Starts an aop vote, duration is in seconds
 
