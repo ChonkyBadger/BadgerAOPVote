@@ -71,8 +71,8 @@ namespace BadgerAOPVote
             {
                 color = new[] { 255, 0, 0 },
                 multiline = true,
-                args = new[] { colour2 + "An " + colour1 + "AOP Vote " + colour2 + "has been started! " + 
-                "You have " + colour1 + timeToVote + " seconds " + colour2 + "to vote using " + colour1 +  "/vote <option> " + "\n" +
+                args = new[] { colour1 + "An " + colour2 + "AOP Vote " + colour1 + "has been started! " + 
+                "You have " + colour2 + timeToVote + " seconds " + colour1 + "to vote using " + colour2 +  "/vote <option> " + "\n" +
                 options }
             });
         }
