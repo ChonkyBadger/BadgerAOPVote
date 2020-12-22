@@ -2,6 +2,8 @@
 A FiveM script for making AOP Votes. This script can link up to BadgerEssentials to automatically  
 set the aop to the winning option.
 
+Support is available in my discord, linked at the bottom of this page.
+
 ## Commands
 `/startVote <duration> <option1, option2, etc...> ` Starts an aop vote, duration is in seconds
 
@@ -16,13 +18,15 @@ set the aop to the winning option.
 `BadgerEssentials.Command.StartVote` Gives access to the /startVote command
 
 ## Installation
-Under "releases", download the latest version and extract the files to a folder. You should have one folder with the script's  
-files in it. You should see a config folder, fxmanifest.lua, README.md, License, and 3 dlls. If you see a .sln, it means you downloaded  
-the source code instead of the compiled files. In your server.cfg, you will want to add:  
-"start BadgerAOPVote". If you did not name the folder, "BadgerAOPVote", just replace it with whatever you did name it.  
+Under **"releases"**, download the latest version and extract the files to a folder. You should have one folder with the script's  
+files in it. You should see a config folder, **fxmanifest.lua**, **README.md**, **License**, and 3 dlls. If you see a **.sln**  file, it means you  
+downloaded the source code instead of the compiled files.  
+In your server.cfg, you will want to add:  
+**"start BadgerAOPVote"**. If you did not name the folder, **"BadgerAOPVote"**, just replace it with whatever you did name it.  
 
-## Credit
-- [Badger](https://forum.cfx.re/u/OfficialBadger)
+## License
+Full license is viewable in the LICENSE file in this repository.  
+This license is subject to be changed at any given time.
 
 ## Links
 - [My Discord Server](https://discord.gg/TFCQE8d)
